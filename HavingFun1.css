@@ -4,4 +4,8 @@ body{
 
 #intro{
     font-style: italic;
+
+}
+head{
+    background-color: aqua;
 }
