@@ -1,3 +1,79 @@
-body{
-    background-color: rgba(200, 146, 238, 0.668);
+body {
+    background: linear-gradient(45deg, rgb(13, 112, 13), rgb(130, 58, 30), rgb(255, 255, 0), #000000);
+    background-size: 5% 20px;
+    background-position: 5%;
+}
+
+p {
+    text-shadow: 5px 5px 1px hsl(60, 59%, 41%);
+}
+
+#chaos {
+    float: right;
+    border: dotted;
+    border: double #00008b;
+    color: #97970e;
+    padding: 5em;
+    background-color: #97970e;
+}
+
+#mustcrochet {
+    float: left;
+}
+
+div {
+    float: left;
+    background: linear-gradient(45deg, rgb(13, 112, 13), rgb(130, 58, 30), rgb(255, 255, 0), #000000);
+    background-size: 5%;
+    color: hsl(60, 84%, 34%);
+    margin: 200px;
+    border-radius: 30px 0 50px 10px;
+    box-shadow: 10px 10px 20px #000;
+    text-shadow: 2px 2px 0 #ff0000, -2px -2px 0 #ddff00;
+    word-spacing: 20px;
+    line-height: 0.6;
+}
+
+#img1 {
+    height: 40em;
+    width: auto;
+    padding: 5em;
+    background-color: rgb(106, 13, 13);
+    border-radius: 20%;
+    border-style: groove;
+}
+
+#img2 {
+    height: 20em;
+    width: auto;
+}
+
+#dark {
+    height: 60em;
+    width: auto;
+}
+
+ol {
+    float: right;
+}
+
+#two {
+    float: left;
+    size: 10em;
+    color: #ff0000;
+}
+
+h1 :hover {
+    font-size: 12em;
+    font-weight: 900;
+    text-shadow: 5rem 0.5rem 1rem rgb(0, 0, 0) !important;
+}
+
+h1 :active {
+    color: rgb(160, 237, 7);
+}
+
+.star {
+    color: #ff0000;
+    font-size: 15em;
 }
