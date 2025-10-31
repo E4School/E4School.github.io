@@ -1,11 +1,11 @@
 body {
     background: linear-gradient(45deg, rgb(13, 112, 13), rgb(130, 58, 30), rgb(255, 255, 0), #000000);
-    background-size: 5% 20px;
+    background-size: 5% 1.5em;
     background-position: 5%;
 }
 
 p {
-    text-shadow: 5px 5px 1px hsl(60, 59%, 41%);
+    text-shadow: 2em 2em 0.5em hsl(60, 59%, 41%);
 }
 
 #chaos {
@@ -26,11 +26,11 @@ div {
     background: linear-gradient(45deg, rgb(13, 112, 13), rgb(130, 58, 30), rgb(255, 255, 0), #000000);
     background-size: 5%;
     color: hsl(60, 84%, 34%);
-    margin: 200px;
-    border-radius: 30px 0 50px 10px;
-    box-shadow: 10px 10px 20px #000;
-    text-shadow: 2px 2px 0 #ff0000, -2px -2px 0 #ddff00;
-    word-spacing: 20px;
+    margin: 18.75em;
+    border-radius: 1.875em 0 3.125em 0.625em;
+    box-shadow: 0.625em 0.625em 1.25em #000;
+    text-shadow: 0.125em 0.125em 0 #ff0000, -0.125em -0.125em 0 #ddff00;
+    word-spacing: 1.25em;
     line-height: 0.6;
 }
 
@@ -76,4 +76,46 @@ h1 :active {
 .star {
     color: #ff0000;
     font-size: 15em;
+}
+
+/*This is styling for the navigation menu*/
+
+#nav_menu {
+    border-top: 0.1em solid #000;
+    border-bottom: 0.1em solid #000;
+    width: 100%;
+}
+
+#nav_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav_menu ul li {
+    margin: 0 1.5em;
+}
+
+#nav_menu ul li a {
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #12129a;
+    text-decoration: none;
+}
+
+#nav_menu ul li a:hover {
+    color: rgb(23, 181, 224);
+}
+
+/* For Smaller Screens */
+@media only screen and (max-width: 550px) {
+    #nav_menu ul {
+        flex-direction: column;
+        gap: 0.5em;
+    }
 }

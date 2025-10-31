@@ -3,9 +3,9 @@ body {
 }
 
 #title {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-variant: small-caps;
-    font-size: 2.5em!important;
+    font-size: 2.5em !important;
 }
 
 header {
@@ -13,18 +13,59 @@ header {
     font-size: 2em;
 }
 
-main p{
+main p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
 
-li :hover{
-    font-size: 10em;
+li :hover {
+    font-size: 1em;
     font-weight: 900;
-    text-shadow: 0.5rem 0.5rem 1rem rgb(0, 0, 0)!important;
+    color: #00008b;
 }
 
-li :active{
-    color:rgb(255, 255, 255)
+li :active {
+    color: rgb(255, 255, 255)
+}
 
+/*This is styling for the navigation menu*/
+
+#nav_menu {
+    border-top: 0.1em solid #000;
+    border-bottom: 0.1em solid #000;
+    width: 100%;
+}
+
+#nav_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav_menu ul li {
+    margin: 0 1.5em;
+}
+
+#nav_menu ul li a {
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #12129a;
+    text-decoration: none;
+}
+
+#nav_menu ul li a:hover {
+    color: rgb(23, 181, 224);
+}
+
+/* For Smaller Screens */
+@media only screen and (max-width: 550px) {
+    #nav_menu ul {
+        flex-direction: column;
+        gap: 0.5em;
+    }
 }

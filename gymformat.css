@@ -1,25 +1,78 @@
 body {
-     background: linear-gradient(30deg, rgb(255, 88, 188)0%, rgb(241, 187, 218)90%);
+    background: linear-gradient(30deg, rgb(255, 88, 188)0%, rgb(241, 187, 218)90%);
 }
 
-main{
-    column-count:2;
-    column-gap:35px;
-    column-rule:5px dotted #d70b82;
-}
-
-h1{
+h1 {
     padding-bottom: 1em;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.5em;
 }
 
-img{
-    border:dotted;
+img {
+    border: dotted;
     margin-left: 2em;
     margin-bottom: 3em;
 }
 
-p{
-    margin:2em;
+p {
+    margin: 2em;
+}
+
+main {
+    column-count: 2;
+    column-rule: 0.4em dotted #d70b82;
+    overflow: hidden;
+    float: left;
+}
+
+#photo {
+    width: 65%;
+    min-width: 10em;
+    float: left;
+}
+
+.text {
+    float: left;
+}
+
+/*This is styling for the navigation menu*/
+
+#nav_menu {
+    border-top: 0.1em solid #000;
+    border-bottom: 0.1em solid #000;
+    width: 100%;
+}
+
+#nav_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav_menu ul li {
+    margin: 0 1.5em;
+}
+
+#nav_menu ul li a {
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #12129a;
+    text-decoration: none;
+}
+
+#nav_menu ul li a:hover {
+    color: rgb(23, 181, 224);
+}
+
+/* For Smaller Screens */
+@media only screen and (max-width: 550px) {
+    #nav_menu ul {
+        flex-direction: column;
+        gap: 0.5em;
+    }
 }

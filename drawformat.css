@@ -1,3 +1,89 @@
 body {
     background-color: rgba(147, 255, 147, 0.592);
 }
+
+section {
+    float: left;
+    margin-left: 2em !important;
+}
+
+#pic {
+    width: 40%;
+    min-width: 15em;
+    float: left;
+}
+
+#tutorial:hover {
+    color: rgb(25, 174, 197);
+}
+
+#link {
+    clear: both;
+    padding: 2em;
+}
+
+/*This is styling for the navigation menu*/
+
+#nav_menu {
+    border-top: 0.1em solid #000;
+    border-bottom: 0.1em solid #000;
+    width: 100%;
+}
+
+#nav_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav_menu ul li {
+    margin: 0 1.5em;
+}
+
+#nav_menu ul li a {
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #12129a;
+    text-decoration: none;
+}
+
+#nav_menu ul li a:hover {
+    color: rgb(23, 181, 224);
+}
+
+/* For Smaller Screens */
+@media only screen and (max-width: 550px) {
+    #nav_menu ul {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    section {
+        width: 35em;
+
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    section {
+        width: 25em;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    section {
+        width: auto;
+    }
+
+    #pic {
+        width: 90%;
+        align-items: center;
+    }
+}
