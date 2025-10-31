@@ -19,8 +19,8 @@ p {
 }
 
 main {
-    column-count: 2;
-    column-rule: 0.4em dotted #d70b82;
+    column-count: 2 !important;
+    column-rule: 0.4em dotted #d70b82 !important;
     overflow: hidden;
     float: left;
 }
