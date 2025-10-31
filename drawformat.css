@@ -64,6 +64,8 @@ section {
     }
 }
 
+/* The next 3 media queries are for formatting the picture and text on this page, since they were really wierd looking*/
+
 @media only screen and (max-width: 1400px) {
     section {
         width: 35em;
