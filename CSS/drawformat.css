@@ -40,12 +40,6 @@ section {
     width: 50%;
 }
 
-li {
-    font-family: "Stack Sans Headline", sans-serif;
-    font-size: 1.1em;
-    font-weight: 200;
-}
-
 /*ID Selector Formatting*/
 
 #page {
@@ -78,6 +72,13 @@ li {
 
 .draw {
     padding: 0.5em;
+}
+
+.cute,
+.draw {
+    font-family: "Stack Sans Headline", sans-serif;
+    font-size: 1.1em;
+    font-weight: 200;
 }
 
 /*This is styling for the flexbox navigation menu*/
