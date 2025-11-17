@@ -1,7 +1,11 @@
+/*Type Selector Formatting*/
+
+/*Background color for continuity across pages*/
 body {
     background: linear-gradient(135deg,
             rgba(160, 215, 255, 0.567),
             rgba(96, 255, 202, 0.1));
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
@@ -14,11 +18,42 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-section {
-    float: left;
-    margin-left: 2em !important;
-    width: 50%;
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
 }
+
+p {
+    font-family: "Stack Sans Headline", sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+ol {
+    font-family: "Stack Sans Headline", sans-serif;
+    font-size: 1.1em;
+    font-weight: 200;
+}
+
+li {
+    margin: 0.25em 0;
+}
+
+section {
+    margin-right: 2em;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    float: left;
+    padding-right: 4em;
+    width: 25em;
+}
+
+/*ID Selector Formatting*/
 
 #page {
     border: 0.05em double rgb(117, 103, 247);
@@ -26,29 +61,33 @@ section {
     padding: 0.5em;
 }
 
-#pic {
-    width: 40%;
-    min-width: 15em;
-    float: left;
-}
-
-#title {
-    font-size: 1.5em;
-    font-variant: small-caps;
-}
-
-#tutorial:hover {
-    color: rgb(25, 174, 197);
-}
-
-#link {
+#break {
     clear: both;
-    padding: 2em;
+    padding-top: 2em;
 }
 
-.draw {
-    padding: 0.5em;
+#up {
+    font-family: 'Times New Roman', Times, serif;
 }
+
+#bolder {
+    font-size: 1.25em;
+}
+
+/*Class Selector Formatting*/
+
+.video {
+    color: #12129a;
+}
+
+.video a:hover {
+    color: rgb(23, 181, 224);
+}
+
+.video a:visited {
+    color: #12129a;
+}
+
 
 /*This is styling for the flexbox navigation menu*/
 
@@ -92,38 +131,25 @@ section {
     }
 }
 
-/* The next 3 media queries are for formatting the picture and text on this page, since they were really wierd looking*/
-
-@media only screen and (max-width: 1400px) {
-    section {
-        width: 35em;
-
-
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    section {
-        width: 25em;
-    }
-}
-
-@media only screen and (max-width: 740px) {
-    section {
-        width: auto;
-    }
-
-    #pic {
+@media only screen and (max-width: 650px) {
+    img {
         width: 70%;
-        align-items: center;
+        min-width: 10em;
         display: block;
         margin-left: auto;
         margin-right: auto;
         float: none;
     }
 
-    #title {
+    h2 {
+        padding-top: none;
+    }
+
+}
+
+@media only screen and (max-width: 1113px) {
+    h2 {
         clear: both;
-        padding-top: 1em;
+        padding-top: 2em;
     }
 }

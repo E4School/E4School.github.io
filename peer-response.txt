@@ -1,0 +1,13 @@
+1)  Maybe keep the color scheme the same for continuity
+
+2)  I would also add a way to tell what page you are currently on. 
+Like on the homepage, the "Home" text in your navigation bar could be a different color or surrounded in 
+a box to indicate "you are on this page." This can help with the website's usability.
+
+
+
+The first change I made according to my peer's recommendations was background continuity across pages. 
+I changed the backgrounds for all of the pages (except the ugly page) to be a blue gradient.
+
+The second change I made according to my peer's recommendations was making sure the users know which page they 
+are on by marking the current site with a box rim. 

@@ -1,3 +1,6 @@
+/*Type Selector Formatting*/
+
+/*Background color for continuity across pages*/
 body {
     background: linear-gradient(135deg,
             rgba(160, 215, 255, 0.567),
@@ -9,6 +12,54 @@ h1 {
     font-size: 3em;
     font-variant: small-caps !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: "Stack Sans Headline", sans-serif;
+    font-size: 1.1em;
+    font-weight: 200;
+    margin: 2em;
+}
+
+img {
+    border: double;
+    border-bottom: double !important;
+    margin-left: 4em;
+    margin-bottom: 3em;
+}
+
+main {
+    column-count: 2;
+    column-rule: 0.2em dotted;
+    overflow: hidden;
+    float: left;
+}
+
+/*ID Selector Formatting*/
+
+#photo {
+    width: 65%;
+    min-width: 15em;
+    height: auto;
+    float: left;
+    border-radius: 0.5em;
+}
+
+#page {
+    border: 0.05em double rgb(117, 103, 247);
+    border-radius: 10%;
+    padding: 0.5em;
+}
+
+#top {
+    clear: both;
+    padding: 5em;
+}
+
+/*Class Selector Formatting*/
+
+.text {
+    float: left;
 }
 
 /*Grid layout for images*/
@@ -76,49 +127,6 @@ section img {
     grid-area: six;
 }
 
-
-
-img {
-    border: double;
-    border-bottom: double !important;
-    margin-left: 4em;
-    margin-bottom: 3em;
-}
-
-p {
-    margin: 2em;
-}
-
-main {
-    column-count: 2;
-    column-rule: 0.2em dotted;
-    overflow: hidden;
-    float: left;
-}
-
-#photo {
-    width: 65%;
-    min-width: 15em;
-    height: auto;
-    float: left;
-    border-radius: 0.5em;
-}
-
-#page {
-    border: 0.05em double rgb(117, 103, 247);
-    border-radius: 10%;
-    padding: 0.5em;
-}
-
-#top {
-    clear: both;
-    padding: 5em;
-}
-
-.text {
-    float: left;
-}
-
 /*This is styling for the flexbox navigation menu*/
 
 #nav_menu {
@@ -177,7 +185,7 @@ main {
 }
 
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1055px) {
     main {
         column-count: auto;
         float: left;
@@ -197,7 +205,7 @@ main {
 
 /*stopping grid layout and making photos centered*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1025px) {
     section {
         display: block !important;
         width: 100% !important;

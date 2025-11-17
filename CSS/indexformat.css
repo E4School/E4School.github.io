@@ -1,3 +1,6 @@
+/*Type Selector Formatting*/
+
+/*Background color for continuity across pages*/
 body {
     background: linear-gradient(135deg,
             rgba(160, 215, 255, 0.567),
@@ -7,6 +10,32 @@ body {
 footer {
     margin-top: 2em;
 }
+
+
+p {
+    font-family: "Stack Sans Headline", sans-serif;
+    font-size: 1.1em;
+    font-weight: 200;
+}
+
+header {
+    font-variant: small-caps;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+h2 a {
+    color: #12129a;
+}
+
+h2 :hover {
+    color: rgb(23, 181, 224);
+}
+
+/*ID Selector Formatting*/
 
 #page {
     border: 0.05em double rgb(117, 103, 247);
@@ -19,25 +48,6 @@ footer {
     font-variant: small-caps !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-header {
-    font-variant: small-caps;
-    font-size: 2em;
-}
-
-h2 a {
-    color: #12129a;
-}
-
-h2 :hover {
-    color: rgb(23, 181, 224);
-}
-
-main p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-}
-
 
 /*This is the code for the index.html link flex box*/
 
