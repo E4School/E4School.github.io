@@ -12,6 +12,7 @@ h1 {
     font-size: 3em;
     font-variant: small-caps !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1em;
 }
 
 p {
@@ -231,4 +232,11 @@ section img {
         display: block;
         margin: 0 auto;
     }
+}
+
+@media only screen and (max-width: 650px) {
+    h1 {
+        margin-left: 0.5em !important;
+    }
+
 }

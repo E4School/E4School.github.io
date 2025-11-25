@@ -7,6 +7,11 @@ body {
             rgba(96, 255, 202, 0.1));
 }
 
+main {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
 footer {
     margin-top: 2em;
 }
@@ -139,7 +144,7 @@ section {
     }
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 1105px) {
     section {
         width: auto;
     }
@@ -157,4 +162,12 @@ section {
         clear: both;
         padding-top: 1em;
     }
+}
+
+@media only screen and (max-width: 650px) {
+    main {
+        margin-left: 1em !important;
+        margin-right: 1em !important;
+    }
+
 }
